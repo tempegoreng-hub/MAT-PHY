@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+  color: white;
+}
+/* SECTION HEADER */
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+}
+
+.logo h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 600px;
+}
+
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  text-decoration: none;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* SECTION-TAB */
+#tabs{
+  display:flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.article{
+
+}
+
+.talk{
+
+}
+
+.edit{
+
+}
+
+.history{
+
+}
+
+h1 {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #0c0525 0%,
+    #31a9ca 29%,
+    #168648 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 50% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#tribes ul li {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 8px;
+}
+#tribes span:after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  border-spacing: 15px;
+}
